@@ -55,6 +55,11 @@
   margin-bottom: 10px;
 }
 
+.faculdade-tipo span {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
 .faculdade-curso {
   flex: 1;
   font-family: Roboto;
