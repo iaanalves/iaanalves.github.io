@@ -1,6 +1,5 @@
 .experiencia .subtitulo {
   color: #e5d7c5;
-  font-weight: bold;
 }
 
 .exp-texto {
@@ -47,11 +46,11 @@
   font-size: 0.875rem;
 }
 
-.empresa-titulo, span {
-  font-family: IBM Plex Mono;
+.empresa-titulo {
   font-size: 1.125rem;
-  line-height: 1.1;
+  font-family: "IBM Plex Mono";
   font-weight: bold;
+  line-height: 1.1;  
 }
 
 .empresa-texto {

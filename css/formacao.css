@@ -48,9 +48,7 @@
   flex-direction: column;
 }
 
-.faculdade-tipo, span {
-  font-family: Roboto;
-  font-weight: bold;
+.faculdade-tipo {
   font-size: 0.75rem;
   text-transform: uppercase;
   color: #a3a3a3;
@@ -59,11 +57,14 @@
 
 .faculdade-curso {
   flex: 1;
-  font-family: Roboto;
   font-size: 1.125rem;
   line-height: 1.4;
   margin-bottom: 40px;
   position: relative;
+}
+
+.faculdade-curso h3 {
+  font-family: Roboto, Arial !important;
 }
 
 .faculdade-curso::before {
@@ -80,6 +81,20 @@
 .faculdade-inst {
   font-size: 1.125rem;
   color: #a3a3a3;
+}
+
+.cursos {
+  margin-bottom: 60px;
+}
+
+.cursos h3{
+    font-family: "IBM Plex Mono";
+    font-weight: bold;
+  }
+
+.idiomas h3{
+    font-family: "IBM Plex Mono";
+    font-weight: bold;
 }
 
 .formacao-extra h3 {
@@ -99,10 +114,6 @@
   position: absolute;
   left: -36px;
   top: -4px;
-}
-
-.cursos {
-  margin-bottom: 60px;
 }
 
 .cursos h3::before {

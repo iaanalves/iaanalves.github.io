@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 
 body {
   font-family: Roboto, Arial, sans-serif;
@@ -9,9 +8,8 @@ body {
 
 h1,
 h2,
-h3 {
-  font-family: IBM Plex Mono;
-  font-weight: bold;
+h3,
+p {
   margin: 0px;
 }
 
@@ -42,7 +40,7 @@ img {
   text-transform: uppercase;
   word-break: break-all;
   max-width: 4ch;
-  font-family: IBM Plex Mono, Arial, sans-serif;
+  font-family: "IBM Plex Mono", Arial, sans;
 }
 
 @media (max-width: 800px) {
