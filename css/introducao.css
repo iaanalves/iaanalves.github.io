@@ -65,7 +65,7 @@
   }
 
   .introducao p::before {
-    display: none;
+    display: block;
   }
 }
 
@@ -77,4 +77,8 @@
   .introducao p::before {
     display: none;
   }
+  .introducao img {
+    display: none;
+}
+  
 }
