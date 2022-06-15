@@ -64,4 +64,13 @@
   .footer-contato li {
     font-size: 1.5rem;
   }
+  .footer-texto::before {
+    display: none;
+}
+}
+
+@media (max-width: 400px){
+    .footer-texto::before {
+        display: none;
+    }
 }

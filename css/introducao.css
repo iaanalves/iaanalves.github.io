@@ -64,7 +64,7 @@
     left: 0px;
   }
 
-  .introducao-texto-icon img {
+  .introducao p::before {
     display: none;
   }
 }
@@ -74,7 +74,7 @@
     grid-template-columns: 1fr;
   }
 
-  .introducao img {
+  .introducao p::before {
     display: none;
   }
 }
