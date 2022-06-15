@@ -1,78 +1,78 @@
 .introducao {
-    align-items: center;
+  align-items: center;
 }
 
 .introducao h1 {
-    font-size: 4.5rem;
-    line-height: 1.125;
-    margin-bottom: 30px;
-    position: relative;
+  font-size: 4.5rem;
+  line-height: 1.125;
+  margin-bottom: 30px;
+  position: relative;
 }
 
 .introducao h1::before {
-    content: "";
-    display: block;
-    width: 130px;
-    height: 100px;
-    background: url('../img/detalhe.svg') no-repeat center;
-    position: absolute;
-    top: -15px;
-    left: -40px;
-    z-index: -1;
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/detalhe.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
 }
 
 .introducao p {
-    font-size: 1.5rem;
-    color: #525252;
-    position: relative;
+  font-size: 1.5rem;
+  color: #525252;
+  position: relative;
 }
 
 .introducao p::before {
-    display: block;
-    content: "";
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: -5px;
-    left: 270px;
+  display: block;
+  content: "";
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -5px;
+  left: 270px;
 }
 
 .introducao p::before {
-    background: url(../img/local-pin.svg);
+  background: url(../img/local-pin.svg);
 }
 
 @media (max-width: 1000px) {
-    .introducao h1 {
-        font-size: 3rem;
-    }
+  .introducao h1 {
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 800px) {
-    .introducao {
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-    }
-    .introducao h1 {
-        font-size: 2rem;   
-    }
+  .introducao {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .introducao h1 {
+    font-size: 2rem;
+  }
 
-    .introducao h1::before {
-        width: 30px;
-        height: 10px;
-        left: 0px;
-    }
+  .introducao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0px;
+  }
 
-    .introducao-texto-icon img {
-        display: none;
-    }
+  .introducao-texto-icon img {
+    display: none;
+  }
 }
 
 @media (max-width: 400px) {
-    .introducao {
-        grid-template-columns: 1fr;
-    }
+  .introducao {
+    grid-template-columns: 1fr;
+  }
 
-    .introducao img {
-        display: none;
-    }
+  .introducao img {
+    display: none;
+  }
 }
