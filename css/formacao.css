@@ -87,14 +87,14 @@
   margin-bottom: 60px;
 }
 
-.cursos h3{
-    font-family: "IBM Plex Mono";
-    font-weight: bold;
-  }
+.cursos h3 {
+  font-family: "IBM Plex Mono";
+  font-weight: bold;
+}
 
-.idiomas h3{
-    font-family: "IBM Plex Mono";
-    font-weight: bold;
+.idiomas h3 {
+  font-family: "IBM Plex Mono";
+  font-weight: bold;
 }
 
 .formacao-extra h3 {
